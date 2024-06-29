@@ -1,0 +1,208 @@
+/* src/components/Advantages.css */
+.advantages-section {
+    text-align: center;
+    padding-bottom: 80px;
+    margin: 80px;
+  }
+  
+  .advantages-title {
+    font-family: 'Pinyon Script', sans-serif;
+    font-size: 80px;
+    color: #243036;
+  }
+  
+  .title-plus {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+  }
+  
+  .advantages-images {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .advantage-image {
+    height: 302px;
+    border-radius: 24px;
+    object-fit: cover;
+  }
+  
+  .advantage-image-1 {
+    border-radius: 160px 24px 24px 24px;
+  }
+  
+  .advantages-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    text-align: left;
+  }
+  
+  .advantage-item {
+    display: flex;
+    align-items: top;
+    padding: 20px;
+    border-radius: 12px;
+  }
+  
+  .advantage-number {
+    border: 2px solid #355933; 
+    color: #355933;
+    width: 100px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-right: 20px;
+  }
+  
+  .advantage-text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .advantage-title {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0;
+  }
+  
+  .advantage-description {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 24px;
+    margin-top: 8px;
+  }
+
+    /* Responsiveness for Tablet (768px) */
+@media (max-width: 768px) {
+  .advantages-section {
+    display: flex;
+    width: 688px;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    margin: 80px 20px 80px 20px;
+  }
+
+  .advantages-title {
+    align-self: stretch;
+    text-align: center;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .advantages-images {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    align-self: stretch;
+  }
+
+  .advantage-image-1 {
+    width: 270px;
+    height: auto;
+    border-radius: 160px 24px 24px 24px;
+  }
+
+  .advantage-image {
+    width: 179px;
+    height: auto;
+    border-radius: 24px;
+  }
+
+  .advantage-title {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .advantage-description {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .advantage-number {
+    width: 100px;
+    height: 50px;
+  }
+}
+
+/* Responsiveness for Mobile (576px) */
+@media (max-width: 576px) {
+  .advantages-section {
+    display: flex;
+    width: 496px;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    margin: 80px 20px 80px 20px;
+  }
+
+  .advantages-title {
+    align-self: stretch;
+    text-align: center;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .advantages-images {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+  }
+
+  .advantage-image-1 {
+    width: 199px;
+    height: auto;
+    border-radius: 80px 24px 24px 24px;
+  }
+
+  .advantage-image {
+    width: 133px;
+    height: auto;
+    border-radius: 24px;
+  }
+
+  .advantages-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .advantage-title {
+    text-align: justify;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .advantage-description {
+    text-align: justify;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .advantage-number {
+    width: 100px;
+    height: 50px;
+  }
+}

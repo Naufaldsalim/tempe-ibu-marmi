@@ -1,0 +1,22 @@
+/* src/components/Footer.css */
+.footer-section {
+    background-color: #fffef5;
+    color: #355933;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 80px;
+  }
+  
+  .footer-logo {
+    width: 100px;
+    height: auto;
+  }
+  
+  .footer-copyright {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
